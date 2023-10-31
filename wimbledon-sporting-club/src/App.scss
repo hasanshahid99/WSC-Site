@@ -50,5 +50,8 @@ a {
     margin: 0 3rem;
   }
   
- 
+  .nav-links a.active {
+    background-color: #33B1FE; /* Change the color to your desired background color */
+    color: #FDFEFF; /* Change the text color to ensure readability */
+  }
   
