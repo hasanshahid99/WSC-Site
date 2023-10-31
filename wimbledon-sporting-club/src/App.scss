@@ -1,0 +1,54 @@
+
+ body{
+    margin: 0;
+    overflow-x: hidden;
+}
+//colour theme
+$primary-color: #0057D8;
+$secondary-color: #33B1FE;
+$background-color: #FDFEFF;
+
+// NAVBAR
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: $background-color;
+    padding: 10px;
+   width:100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    
+  }
+  .nav-first, .nav-end {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .nav-first {
+   
+ 
+  }
+  .logo {
+    flex:1;
+    text-align: center;
+    margin: 0 5vh;
+  }
+  .nav-end {
+    margin-left: auto;
+  }
+
+a {
+    text-decoration: none;
+    color: $background-color;
+    margin: 0 3rem;
+  }
+  
+ 
+  
