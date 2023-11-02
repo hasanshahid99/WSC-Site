@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             className={activeLink === 'League Table' ? 'active' : ''}
             onClick={() => handleSetActiveLink('League Table')}
           >
-            League Table
+          Table
           </a>
         </li>
         <li>

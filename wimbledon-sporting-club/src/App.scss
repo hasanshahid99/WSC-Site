@@ -30,11 +30,6 @@ $background-color: #FDFEFF;
     align-items: center;
    
   }
-
-  .nav-first {
-   
- 
-  }
   .logo {
     flex:1;
     text-align: center;
@@ -51,7 +46,77 @@ a {
   }
   
   .nav-links a.active {
-    background-color: #33B1FE; /* Change the color to your desired background color */
-    color: #FDFEFF; /* Change the text color to ensure readability */
+    background-color: $secondary-color; /* Change the color to your desired background color */
+    color:$background-color; /* Change the text color to ensure readability */
+  }
+
+.container {
+  margin: 10px 0px;
+}
+  // HOMEPAGE STYLES
+  .banner-wrapper {
+    margin: 0px 5px;
+  }
+  .main-banner {
+    margin: 0 5px;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+  }
+
+  .banner-left {
+    background-color: $secondary-color;
+    color: $primary-color;
+    text-align: center;
+  }
+
+  .banner-left,.banner-right {
+    display: table-cell;
+    flex:1;
+    padding:5rem;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .banner-right {
+    background-color: gray;
+   
   }
   
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    overflow:visible;
+  }
+
+  .info-title {
+    color: $primary-color;
+    margin-left: 3rem;
+  }
+
+  .banner2 {
+    background-color: $secondary-color;
+    padding: 5rem;
+  }
+
+  .banner p {
+    color: $background-color;
+  }
+
+
+
+  // footer 
+  .footer {
+    display:flex;
+    align-items: center;
+    justify-content: center ;
+  }
+
+  .logo-insta {
+    display: block;
+  }
