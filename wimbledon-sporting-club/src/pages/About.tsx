@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from '../components/Footer'
 const About = () => {
   return (
     <div className="container">
@@ -20,7 +20,7 @@ const About = () => {
       <section className='img-banner'>
 <p>PIC</p>
       </section>
-<p>FOOTER</p>
+<Footer/>
     </div>
   )
 }
