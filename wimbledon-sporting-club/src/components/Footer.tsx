@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <div className='footer'>
       <p>wimbledonsportingclub@gmail.com</p>
       <div className='logo-insta'>
-        <p>WSC</p>
+        <img id="footer-logo"src="assets/Logo/WSC-Logo.png" alt=""/>
         <p>INSTA</p>
       </div>
       <p>+447950686561</p>

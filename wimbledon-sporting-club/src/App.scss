@@ -35,6 +35,10 @@ $background-color: #FDFEFF;
     text-align: center;
     margin: 0 5vh;
   }
+
+  #nav-logo {
+    width: 100%;
+  }
   .nav-end {
     margin-left: auto;
   }
@@ -108,15 +112,43 @@ a {
     color: $background-color;
   }
 
+  .sponsors {
+    width: 20%;
+    margin: 5px 20px;
+    filter:grayscale(100%);
+  }
+
+  .img-banner {
+    height:450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.flag {
+  width:100%;
+  object-fit: cover;
+  object-position: bottom; /* Adjust the position to move the image up */
+
+}
 
 
   // footer 
   .footer {
+    margin-top: 10px;
     display:flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
   }
 
   .logo-insta {
     display: block;
+    width:30%;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+  }
+
+  #footer-logo {
+    width: 100%;
   }

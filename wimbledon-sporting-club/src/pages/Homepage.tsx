@@ -14,7 +14,10 @@ const Homepage = () => {
       </section>
       <h3 className="info-title">OUR SPONSORS</h3>
       <section className='banner'>
-        <p>LOGOS</p>
+        <img className="sponsors"src="assets/sponsors/MLB-Estates.png" alt="Wimbledon Irish Centre" />
+        <img className="sponsors"src="assets/sponsors/AM.png" alt="Wimbledon Irish Centre" />
+        <img className="sponsors"src="assets/sponsors/WIC.png" alt="Wimbledon Irish Centre" />
+        <img className="sponsors"src="assets/sponsors/WIC.png" alt="Wimbledon Irish Centre" />
       </section>
       <h3 className="info-title">WHERE WE PLAY</h3>
       <section className='banner banner2' >
@@ -22,7 +25,7 @@ const Homepage = () => {
     <h3>BOX OF MAP</h3>
       </section>
       <section className='img-banner'>
-<p>PIC</p>
+<img className="flag"src="assets/Players/HS.jpeg" alt="" />
       </section>
 <Footer/>
     </div>
