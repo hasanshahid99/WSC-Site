@@ -1,7 +1,8 @@
 
- body{
+html, body{
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Jockey One', sans-serif;
 }
 //colour theme
 $primary-color: #0057D8;
@@ -16,13 +17,14 @@ $background-color: #FDFEFF;
     align-items: center;
     background-color: $primary-color;
     color: $background-color;
-    padding: 10px;
    width:100%;
   }
   
   .nav-links {
     display: flex;
     list-style: none;
+    font-size: 1.4rem;
+    transform: scale(1.5);
     
   }
   .nav-first, .nav-end {
@@ -30,17 +32,16 @@ $background-color: #FDFEFF;
     align-items: center;
    
   }
-  .logo {
-    flex:1;
-    text-align: center;
-    margin: 0 5vh;
-  }
+  
 
   #nav-logo {
-    width: 100%;
-  }
-  .nav-end {
-    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5vh;
+    margin-top: 7px;
+    transform: translateY(6px)scale(6);
+    height: 20px;
   }
 
 a {
@@ -55,18 +56,20 @@ a {
   }
 
 .container {
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
   // HOMEPAGE STYLES
   .banner-wrapper {
     margin: 0px 5px;
   }
   .main-banner {
-    margin: 0 5px;
-    display: table-row;
+    background-color: $secondary-color;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
     width:100%;
+ 
     overflow: hidden;
   }
 
@@ -79,15 +82,37 @@ a {
   .banner-left,.banner-right {
     display: table-cell;
     flex:1;
-    padding:5rem;
     width: 50%;
     height: 100%;
     text-align: center;
   }
 
   .banner-right {
-    background-color: gray;
+   justify-content: flex-start;
+  margin:-10px 0px
+  }
+  .banner-right:hover {
+    cursor: pointer;
+  }
+
+  .banner-right:hover .overlay-text {
+    display: block;
+  opacity: 50%;
+}
+  .overlay-container {
+    position: absolute;
    
+    // justify-content: center;
+    // align-items: center;
+     width: 100%;
+  }
+  
+  .overlay-text {
+    display: none;
+    width: 53%;
+    color: white; /* Set the text color */
+    font-size: 32px; /* Adjust the font size */
+    overflow: hidden;
   }
   
   .banner {
@@ -95,7 +120,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: $primary-color;
-    overflow:visible;
   }
 
   .info-title {
@@ -119,10 +143,9 @@ a {
   }
 
   .img-banner {
-    height:450px;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 .flag {
@@ -132,6 +155,23 @@ a {
 
 }
 
+.banner2 p {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.banner2 div {
+  width: 100%;
+}
+#map {
+  border: solid 1px transparent;
+  width: 100%;
+  height: 300px;
+}
+
+#map:hover {
+  border: solid 1px $primary-color
+}
 
   // footer 
   .footer {

@@ -28,9 +28,12 @@ const Navbar: React.FC = () => {
             About
           </a>
         </li>
-        <div className='logo'>
-          {/* <img id="nav-logo"src="assets/Logo/WSCLogo.png" alt="" /> */}
-          </div>
+        <li>
+          
+        <img id="nav-logo"src="assets/Logo/WSCLogo.png" alt="" /> 
+     
+        </li>
+         
         <li>
           <a
             href="/league-table"
