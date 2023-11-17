@@ -30,7 +30,7 @@ const ImageCarousel: React.FC = () => {
           style={{objectFit: 'contain' }}
         />
         <div className="overlay-container">
-        <p className="overlay-text">NEXT IMAGE</p>
+        {/* <p className="overlay-text">NEXT IMAGE</p> */}
       </div> 
       {/* <button onClick={nextImage}>&#8250;</button> */}
     </>

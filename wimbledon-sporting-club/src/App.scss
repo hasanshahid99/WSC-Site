@@ -1,7 +1,6 @@
 
 html, body{
     margin: 0;
-    overflow-x: hidden;
     font-family: 'Jockey One', sans-serif;
 }
 //colour theme
@@ -13,44 +12,43 @@ $background-color: #FDFEFF;
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: $primary-color;
     color: $background-color;
-   width:100%;
+  
+   height: 7vh;
+
   }
   
   .nav-links {
     display: flex;
     list-style: none;
-    font-size: 1.4rem;
-    transform: scale(1.5);
+    justify-content: center;
     
   }
-  .nav-first, .nav-end {
-    display: flex;
-    align-items: center;
-   
+
+  .navbar a {
+    font-size: 2rem;
   }
+  
   
 
   #nav-logo {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 0 5vh;
-    margin-top: 7px;
-    transform: translateY(6px)scale(6);
+    transform: translate(8px, 7px)scale(7);
     height: 20px;
   }
 
 a {
     text-decoration: none;
     color: $background-color;
-    margin: 0 3rem;
+  
   }
   
-  .nav-links a.active {
+  .navbar a.active {
     background-color: $secondary-color; /* Change the color to your desired background color */
     color:$background-color; /* Change the text color to ensure readability */
   }
@@ -106,14 +104,20 @@ a {
     // align-items: center;
      width: 100%;
   }
-  
-  .overlay-text {
-    display: none;
-    width: 53%;
-    color: white; /* Set the text color */
-    font-size: 32px; /* Adjust the font size */
-    overflow: hidden;
+
+  #banner-text {
+    margin:10px;
+    font-size: 2rem;
+    color: $background-color;
   }
+  
+  // .overlay-text {
+  //   display: none;
+  //   width: 53%;
+  //   color: white; /* Set the text color */
+  //   font-size: 32px; /* Adjust the font size */
+  //   overflow: hidden;
+  // }
   
   .banner {
     display: flex;
@@ -176,17 +180,33 @@ a {
   // footer 
   .footer {
     margin-top: 10px;
+    padding: 10px;
+    margin-right: 115px;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
+  .footer p {
+    justify-content: center;
+  }
+.footer-p {
+  color: $primary-color;
+  font-size: 1.5rem;
+  margin: 0 5rem;
+}
   .logo-insta {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-10%);
     width:30%;
     align-items: center;
-    justify-content:center ;
-    text-align: center;
+  }
+
+  #insta {
+    margin-top: 10px;
+    color: $secondary-color;
+    height: 50px;
   }
 
   #footer-logo {

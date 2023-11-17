@@ -6,7 +6,9 @@ const Homepage = () => {
     <div className="container">
         <div className='banner-wrapper'>
       <section className='main-banner'>
-        <div className="banner-left">We are a community-driven football club based in Wimbledon. Founded in 2023 means we are only at the beginning of our journey.</div>
+        <div className="banner-left">
+<h3 id="banner-text">
+            We are a community-driven football club based in Wimbledon. <br/><br/> Established in 2023 with many more years to come.</h3></div>
         <div className="banner-right">
         
              <ImageCarousel/> 
@@ -14,7 +16,6 @@ const Homepage = () => {
       </section>
       </div>
       <section className="info">
-        <p>TEXT</p>
       </section>
       <h3 className="info-title">OUR SPONSORS</h3>
       <section className='banner'>

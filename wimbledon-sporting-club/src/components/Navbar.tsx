@@ -9,8 +9,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar">
-      <ul className="nav-links">
-        <li>
+      
           <a
             href="/"
             className={activeLink === 'Home' ? 'active' : ''}
@@ -18,8 +17,8 @@ const Navbar: React.FC = () => {
           >
             Home
           </a>
-        </li>
-        <li>
+      
+     
           <a
             href="/about"
             className={activeLink === 'About' ? 'active' : ''}
@@ -27,14 +26,10 @@ const Navbar: React.FC = () => {
           >
             About
           </a>
-        </li>
-        <li>
-          
-        <img id="nav-logo"src="assets/Logo/WSCLogo.png" alt="" /> 
-     
-        </li>
-         
-        <li>
+       <a>
+          <img id="nav-logo"src="assets/Logo/WSCLogo.png" alt="" /> 
+          </a>
+        
           <a
             href="/league-table"
             className={activeLink === 'League Table' ? 'active' : ''}
@@ -42,8 +37,8 @@ const Navbar: React.FC = () => {
           >
           Table
           </a>
-        </li>
-        <li>
+    
+
           <a
             href="/shop"
             className={activeLink === 'Shop' ? 'active' : ''}
@@ -51,8 +46,8 @@ const Navbar: React.FC = () => {
           >
             Shop
           </a>
-        </li>
-      </ul>
+     
+    
     </nav>
   );
 };
