@@ -1,8 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import ImageCarousel from '../components/ImageCarousel'
-const Homepage = () => {
+const Homepage:React.FC = () => {
+  const redirectToBusinessPage = (url: string) => {
+    window.open(url, '_blank');
+  };
   return (
+
     <div className="container">
         <div className='banner-wrapper'>
       <section className='main-banner'>
@@ -19,10 +23,30 @@ const Homepage = () => {
       </section>
       <h3 className="info-title">OUR SPONSORS</h3>
       <section className='banner'>
-        <img className="sponsors"src="assets/sponsors/MLB-Estates.png" alt="Wimbledon Irish Centre" />
-        <img className="sponsors"src="assets/sponsors/AM.png" alt="Wimbledon Irish Centre" />
-        <img className="sponsors"src="assets/sponsors/WIC.png" alt="Wimbledon Irish Centre" />
-        <img className="sponsors"src="assets/sponsors/Represent.jpeg" alt="Wimbledon Irish Centre" />
+      <img
+        className="sponsors"
+        src="assets/sponsors/MLB-Estates.png"
+        alt="MLB Estates"
+        onClick={() => redirectToBusinessPage('https://mblestates.com/')}
+      />
+      <img
+        className="sponsors"
+        src="assets/sponsors/AM.png"
+        alt="AM"
+        onClick={() => redirectToBusinessPage('https://absolutemortgages.ie/')}
+      />
+      <img
+        className="sponsors"
+        src="assets/sponsors/WIC.png"
+        alt="Wimbledon Irish Centre"
+        onClick={() => redirectToBusinessPage('https://wimbledoncommunity.org/spaces/south-london-irish-association/')}
+      />
+      <img
+        className="sponsors"
+        src="assets/sponsors/Represent.jpeg"
+        alt="Represent"
+        onClick={() => redirectToBusinessPage('https://representagency.com/')}
+      />
       </section>
       <h3 className="info-title">WHERE WE PLAY</h3>
       <section className='banner banner2' >

@@ -8,6 +8,27 @@ $primary-color: #0057D8;
 $secondary-color: #33B1FE;
 $background-color: #FDFEFF;
 
+h3 {
+  color: $primary-color;
+   margin-left: 5px;
+}
+
+p {
+  color: $primary-color;
+}
+
+button {
+  font-family: 'Jockey One', sans-serif;
+  background-color: $secondary-color;
+  border: 1px;
+  font-size: 1.2rem;
+  color:#FDFEFF;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
 // NAVBAR
 
 .navbar {
@@ -49,8 +70,9 @@ a {
   }
   
   .navbar a.active {
-    background-color: $secondary-color; /* Change the color to your desired background color */
-    color:$background-color; /* Change the text color to ensure readability */
+    color: $secondary-color; /* Change the color to your desired background color */
+    text-decoration: underline;
+     /* Change the text color to ensure readability */
   }
 
 .container {
@@ -145,6 +167,9 @@ a {
     margin: 5px 20px;
     filter:grayscale(100%);
   }
+  .sponsors:hover {
+    cursor: pointer;
+  }
 
   .img-banner {
     overflow: hidden;
@@ -176,6 +201,80 @@ a {
 #map:hover {
   border: solid 1px $primary-color
 }
+//about page
+#team-pic {
+  width: 100%;
+  height: 0%;
+}
+.info {
+  display: flex;
+}
+.info p {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 15px
+}
+.para {
+  margin-left: 5px;
+  font-size: 1.2rem;
+}
+.gallery {
+  width: 25%;
+  margin: 25px 0px
+}
+.img-banner-abt {
+  margin-top: 15px;
+  display: flex;
+  justify-content:center;
+}
+.abt-pic {
+  width: 30%;
+}
+
+// table
+.table-container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set to 100% of the viewport height */
+}
+.table-container h3 {
+  align-items: center;
+  justify-content: center;
+  display:flex
+}
+table {
+  /* Add any additional styling for the table if needed */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  color: $background-color;
+  background-color: #33B1FE;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: $primary-color;
+}
+#club {
+  font-size: 2rem;
+}
+#shop-pic {
+  margin:0;
+  display: flex;
+  justify-content:center;
+  align-self: center;
+
+}
+
+#shop {
+  width: 60%;
+
+}
+
 
   // footer 
   .footer {
