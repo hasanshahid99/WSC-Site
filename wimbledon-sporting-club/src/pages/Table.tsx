@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const Table: React.FC = () => {
-
-
 
   // Sample data for the table
   const tableData = [
