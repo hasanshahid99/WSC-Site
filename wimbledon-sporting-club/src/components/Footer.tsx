@@ -1,14 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const Footer: React.FC = () => {
   return (
     <div className='footer'>
-      <p>wimbledonsportingclub@gmail.com</p>
+      <p className="footer-p">wimbledonsportingclub@gmail.com</p>
       <div className='logo-insta'>
-        <p>WSC</p>
-        <p>INSTA</p>
+        {/* <img id="footer-logo"src="assets/Logo/WSC-Logo.png" alt=""/> */}
+        <FontAwesomeIcon id="insta" icon={faInstagram} />
       </div>
-      <p>+447950686561</p>
+      <p className="footer-p">+447950686561</p>
     </div>
   )
 }

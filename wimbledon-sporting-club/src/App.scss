@@ -1,68 +1,95 @@
 
- body{
+html, body{
     margin: 0;
-    overflow-x: hidden;
+    font-family: 'Jockey One', sans-serif;
 }
 //colour theme
 $primary-color: #0057D8;
 $secondary-color: #33B1FE;
 $background-color: #FDFEFF;
 
+h3 {
+  color: $primary-color;
+   margin-left: 5px;
+}
+
+p {
+  color: $primary-color;
+}
+
+button {
+  font-family: 'Jockey One', sans-serif;
+  background-color: $secondary-color;
+  border: 1px;
+  font-size: 1.2rem;
+  color:#FDFEFF;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
 // NAVBAR
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: $primary-color;
     color: $background-color;
-    padding: 10px;
-   width:100%;
+  
+   height: 7vh;
+
   }
   
   .nav-links {
     display: flex;
     list-style: none;
+    justify-content: center;
     
   }
-  .nav-first, .nav-end {
-    display: flex;
-    align-items: center;
-   
+
+  .navbar a {
+    font-size: 2rem;
   }
-  .logo {
-    flex:1;
+  
+  
+
+  #nav-logo {
     text-align: center;
-    margin: 0 5vh;
-  }
-  .nav-end {
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    transform: translate(8px, 7px)scale(7);
+    height: 20px;
   }
 
 a {
     text-decoration: none;
     color: $background-color;
-    margin: 0 3rem;
+  
   }
   
-  .nav-links a.active {
-    background-color: $secondary-color; /* Change the color to your desired background color */
-    color:$background-color; /* Change the text color to ensure readability */
+  .navbar a.active {
+    color: $secondary-color; /* Change the color to your desired background color */
+    text-decoration: underline;
+     /* Change the text color to ensure readability */
   }
 
 .container {
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
   // HOMEPAGE STYLES
   .banner-wrapper {
     margin: 0px 5px;
   }
   .main-banner {
-    margin: 0 5px;
-    display: table-row;
+    background-color: $secondary-color;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
     width:100%;
+ 
     overflow: hidden;
   }
 
@@ -75,23 +102,50 @@ a {
   .banner-left,.banner-right {
     display: table-cell;
     flex:1;
-    padding:5rem;
     width: 50%;
     height: 100%;
     text-align: center;
   }
 
   .banner-right {
-    background-color: gray;
-   
+   justify-content: flex-start;
+  margin:-10px 0px
   }
+  .banner-right:hover {
+    cursor: pointer;
+  }
+
+  .banner-right:hover .overlay-text {
+    display: block;
+  opacity: 50%;
+}
+  .overlay-container {
+    position: absolute;
+   
+    // justify-content: center;
+    // align-items: center;
+     width: 100%;
+  }
+
+  #banner-text {
+    margin:10px;
+    font-size: 2rem;
+    color: $background-color;
+  }
+  
+  // .overlay-text {
+  //   display: none;
+  //   width: 53%;
+  //   color: white; /* Set the text color */
+  //   font-size: 32px; /* Adjust the font size */
+  //   overflow: hidden;
+  // }
   
   .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $primary-color;
-    overflow:visible;
   }
 
   .info-title {
@@ -108,15 +162,152 @@ a {
     color: $background-color;
   }
 
+  .sponsors {
+    width: 20%;
+    margin: 5px 20px;
+    filter:grayscale(100%);
+  }
+  .sponsors:hover {
+    cursor: pointer;
+  }
+
+  .img-banner {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+.flag {
+  width:100%;
+  object-fit: cover;
+  object-position: bottom; /* Adjust the position to move the image up */
+
+}
+
+.banner2 p {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.banner2 div {
+  width: 100%;
+}
+#map {
+  border: solid 1px transparent;
+  width: 100%;
+  height: 300px;
+}
+
+#map:hover {
+  border: solid 1px $primary-color
+}
+//about page
+#team-pic {
+  width: 100%;
+  height: 0%;
+}
+.info {
+  display: flex;
+}
+.info p {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 15px
+}
+.para {
+  margin-left: 5px;
+  font-size: 1.2rem;
+}
+.gallery {
+  width: 25%;
+  margin: 25px 0px
+}
+.img-banner-abt {
+  margin-top: 15px;
+  display: flex;
+  justify-content:center;
+}
+.abt-pic {
+  width: 30%;
+}
+
+// table
+.table-container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set to 100% of the viewport height */
+}
+.table-container h3 {
+  align-items: center;
+  justify-content: center;
+  display:flex
+}
+table {
+  /* Add any additional styling for the table if needed */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  color: $background-color;
+  background-color: #33B1FE;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: $primary-color;
+}
+#club {
+  font-size: 2rem;
+}
+#shop-pic {
+  margin:0;
+  display: flex;
+  justify-content:center;
+  align-self: center;
+
+}
+
+#shop {
+  width: 60%;
+
+}
 
 
   // footer 
   .footer {
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 115px;
     display:flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: space-between;
   }
 
+  .footer p {
+    justify-content: center;
+  }
+.footer-p {
+  color: $primary-color;
+  font-size: 1.5rem;
+  margin: 0 5rem;
+}
   .logo-insta {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-10%);
+    width:30%;
+    align-items: center;
+  }
+
+  #insta {
+    margin-top: 10px;
+    color: $secondary-color;
+    height: 50px;
+  }
+
+  #footer-logo {
+    width: 100%;
   }
