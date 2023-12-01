@@ -51,6 +51,7 @@ const Homepage:React.FC = () => {
       <h3 className="info-title">WHERE WE PLAY</h3>
       <section className='banner banner2' >
         <p>Our home pitch is Dundonald Recreation Park, SW19 3PN.</p>
+         {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
         <div><iframe id ="map" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Dundonald%20Recreation%20Ground+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
       </section>
       <section className='img-banner'>

@@ -10,9 +10,7 @@ const ImageCarousel: React.FC = () => {
 
   const [currentImage, setCurrentImage] = useState<number>(0);
 
-  const prevImage = () => {
-    setCurrentImage((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-  };
+ 
 
   const nextImage = () => {
     setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -24,7 +22,7 @@ const ImageCarousel: React.FC = () => {
         <img
         onClick={nextImage}
           src={images[currentImage]}
-          alt={`Image ${currentImage + 1}`}
+          alt={` Player${currentImage + 1}`}
           width ='100%'
            
           style={{objectFit: 'contain' }}
