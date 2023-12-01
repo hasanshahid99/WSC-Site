@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container">
     
-      <img id="team-pic"src="assets/Players/squad.jpeg" alt=""/> 
+      <img id="team-pic"src="assets/Players/squad.jpeg" alt="squad"/> 
       <h3>About us</h3>
       <section className="info">
         
