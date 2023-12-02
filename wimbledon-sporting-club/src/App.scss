@@ -30,7 +30,6 @@ button:hover {
   cursor: pointer;
 }
 // NAVBAR
-
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -51,6 +50,7 @@ button:hover {
 
   .navbar a {
     font-size: 2rem;
+    margin: 0px 40px
   }
   
   
@@ -74,6 +74,57 @@ a {
     text-decoration: underline;
      /* Change the text color to ensure readability */
   }
+/* Navbar.css */
+
+
+/* Hamburger Menu Styling */
+.burger-menu {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+}
+
+.bar {
+  background-color: $secondary-color;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+    transform: translateX(-950%) ;
+  }
+
+  .nav-links {
+    display: none;
+  }
+#nav-logo {
+  display: none;
+}
+  .navbar.show-menu .nav-links {
+    display: none;
+  }
+
+  .navbar.show-menu .nav-links.show-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: $primary-color;
+    top: 30px; /* Adjust as needed */
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar.show-menu .nav-links.show-dropdown li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
 
 .container {
   margin: 20px 0px;
