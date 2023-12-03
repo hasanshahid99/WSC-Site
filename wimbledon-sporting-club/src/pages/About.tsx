@@ -12,7 +12,7 @@ const About = () => {
     <p className="para">We instill guaranteed gametime with guaranteed memories.  </p>
       </section>
       <h3>Volunteering</h3>
-      <section className='banner'>
+      <section className='banner sml'>
         <p className="para">Our club would not exist if it wasn’t for the sponsorships we received from local businesses. So, in order to give back to the community we take part in volunteering efforts across SW London.
     
           <br />
