@@ -78,7 +78,12 @@ a {
 
 
 /* Hamburger Menu Styling */
+.navbar {
+  justify-content: flex-start;
+}
 .burger-menu {
+  margin-left: 5px;
+
   cursor: pointer;
   display: none;
   flex-direction: column;
