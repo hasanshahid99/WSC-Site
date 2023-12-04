@@ -8,6 +8,7 @@ const Navbar: React.FC = () => {
 
   const handleSetActiveLink = (link: string, event: React.MouseEvent<HTMLAnchorElement>) => {
     setActiveLink(link);
+    setShowMenu(!showMenu)
   };
 
   const toggleMenu = () => {
@@ -43,9 +44,9 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
 
-        <li>
+        <li id="hidden">
           <Link to="/">
-            <img id="nav-logo" src="assets/Logo/WSCLogo.png" alt="" />
+            <img id="nav-logo" src="assets/Logo/WSCLogo.png" alt="logo" />
           </Link>
         </li>
 

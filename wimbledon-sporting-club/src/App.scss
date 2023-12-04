@@ -80,7 +80,7 @@ a {
 /* Hamburger Menu Styling */
 
 .burger-menu {
-  margin-left: 5px;
+  margin-left: 15px;
   cursor: pointer;
   display: none;
   flex-direction: column;
@@ -347,7 +347,7 @@ th {
     .nav-links {
       display: none;
     }
-  #nav-logo {
+  #hidden {
     display: none;
   }
     .navbar.show-menu .nav-links {
@@ -379,9 +379,16 @@ th {
     font-size: 1rem;
     margin: 5px 15px;
   }
-
+  
   .sponsors {
     width: 19%;
+  }
+  .sml {
+    flex-direction: column;
+  }
+  .gallery {
+    width: 50%;
+    margin: 5px;
   }
     .footer {
       transform: translateX(13%);
