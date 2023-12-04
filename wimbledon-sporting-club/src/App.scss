@@ -42,6 +42,7 @@ button:hover {
   }
   
   .nav-links {
+    margin-right: 34px;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -80,21 +81,20 @@ a {
 /* Hamburger Menu Styling */
 
 .burger-menu {
-  margin-left: 15px;
-  cursor: pointer;
   display: none;
-  flex-direction: column;
+  
 }
 
 .bar {
-  background-color: $secondary-color;
+  background-color: $background-color;
   height: 3px;
   width: 25px;
   margin: 4px 0;
 }
 
-
-
+#mini-title {
+  display: none;
+}
 .container {
   margin: 20px 0px;
 }
@@ -339,11 +339,18 @@ th {
       justify-content: flex-start;
     }
     .burger-menu {
+      margin-left: 15px;
+  cursor: pointer;
+  flex-direction: column;
       display: flex;
        transform: translateX(0);
        cursor: pointer;
     }
-  
+  #mini-title {
+    display: flex;
+    color: $background-color;
+    margin-left: 50px;
+  }
     .nav-links {
       display: none;
     }

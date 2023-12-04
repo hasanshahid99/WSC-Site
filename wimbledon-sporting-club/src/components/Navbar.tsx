@@ -21,8 +21,9 @@ const Navbar: React.FC = () => {
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
+        
       </div>
-
+      <p id="mini-title">Wimbledon Sporting Club</p>
       <ul className={`nav-links ${showMenu ? 'show-dropdown' : ''}`}>
         <li>
           <Link
