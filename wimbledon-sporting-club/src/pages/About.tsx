@@ -8,7 +8,7 @@ const About = () => {
       <h3>About us</h3>
       <section className="info">
         
-    <p className="para">The founding of Wimbledon Sporting Club was established to create an exciting environment surrounding our football.  We all live busy lives and wanted our Saturday's to be spent with company that we enjoy.</p>
+    <p className="para">Wimbledon Sporting Club founded to give a place for those who love spending time together on the pitch as much as they do off the pitch</p>
     <p className="para">We instill guaranteed gametime with guaranteed memories.  </p>
       </section>
       <h3>Volunteering</h3>
@@ -24,8 +24,8 @@ const About = () => {
       </section>
       <h3>Our Policy</h3>
       <section className='banner'>
-        <p className='para'>We exercise a balance between being a competitive side, and being a group of friends. We accept players of all backgrounds, ethnicities and orientations. </p>
-        <p className='para'>Our only expectaition of you is that for the duration of a season, you will volunteer at least once to provide a helping hand to the charities we work with.</p>
+        <p className='para'>We exercise a balance between being a competitive side, and being a group of friends. We're inclusive of players from all backgrounds, ethnicities and orientations. </p>
+        <p className='para'>We expect those who are being supported on the pitch, to support the communities around us and volunteer once a year</p>
       </section>
       <section className='img-banner-abt'>
 <img src ="assets/Fun/IMG_8197.JPG" alt="smiling-player" className="abt-pic"/>
