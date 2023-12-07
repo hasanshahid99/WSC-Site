@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className='logo-insta'>
         <FontAwesomeIcon className="phone"id="insta" icon={faInstagram} />
       </div>
-      <p className="footer-p">+447950686561</p>
+      <p className="footer-p num">+447950686561</p>
     </div>
   )
 }
