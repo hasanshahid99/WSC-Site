@@ -1,13 +1,6 @@
 import React from 'react'
 const Shop:React.FC = () => {
 
-
-    const handleClick = () => {
-      // Redirect to the specified link
-      window.open('https://www.pro-amkits.co.uk/yourshop/club-shops/football-clubs/wimbledon-sporting-club/', '_blank');
-
-
-    };
   return (
     <div>
       <h3 id="club">Club Shop</h3>
