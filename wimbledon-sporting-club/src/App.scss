@@ -367,14 +367,17 @@ th {
       position: absolute;
       background-color: $primary-color;
       top: 30px; /* Adjust as needed */
-      left: 0;
+      left: 0px;
       width: 100%;
     }
   
     .navbar.show-menu .nav-links.show-dropdown li {
+      display: flex;
       margin-right: 0;
       margin-bottom: 10px;
       text-align: center;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
   .banner2 {
     flex-direction: column;
@@ -388,7 +391,7 @@ th {
   }
   
   .sponsors {
-    width: 19%;
+    width: 17%;
   }
   .sml {
     flex-direction: column;
