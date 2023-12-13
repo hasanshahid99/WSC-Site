@@ -20,7 +20,6 @@ const About = () => {
           We partner with ADBC and Enable. There has been great interest received from our players with getting involved for these events - so it has allowed us to schedule multiple efforts throughout the season.    </p>
         <img className="gallery"src="assets/Volunteering/IMG_8889.jpg" alt="volunteering" />
         <img className="gallery" src="assets/Volunteering/IMG_8927.jpg" alt="volunteering" />
-
       </section>
       <h3>Our Policy</h3>
       <section className='banner'>
