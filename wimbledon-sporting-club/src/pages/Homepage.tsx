@@ -26,13 +26,13 @@ const Homepage:React.FC = () => {
       <img
         className="sponsors"
         src="assets/sponsors/MLB-Estates.png"
-        alt="MLB Estates"
+        alt="MLB Estates Logo"
         onClick={() => redirectToBusinessPage('https://mblestates.com/')}
       />
       <img
         className="sponsors"
         src="assets/sponsors/AM.png"
-        alt="AM"
+        alt="Absolute Mortgage"
         onClick={() => redirectToBusinessPage('https://absolutemortgages.ie/')}
       />
       <img
@@ -44,7 +44,7 @@ const Homepage:React.FC = () => {
       <img
         className="sponsors"
         src="assets/sponsors/Represent.jpeg"
-        alt="Represent"
+        alt="Represent Agency"
         onClick={() => redirectToBusinessPage('https://representagency.com/')}
       />
       </section>
@@ -55,7 +55,7 @@ const Homepage:React.FC = () => {
         <div><iframe id ="map" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Dundonald%20Recreation%20Ground+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
       </section>
       <section className='img-banner'>
-<img className="flag"src="assets/Players/HS.jpeg" alt="" />
+<img className="flag"src="assets/Players/HS.jpeg" alt="Player holding ball Wimbledon Sporting Club Badge" />
       </section>
       
 <Footer/>

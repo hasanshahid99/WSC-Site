@@ -4,14 +4,17 @@ const Table: React.FC = () => {
 
   // Sample data for the table
   const tableData = [
-    { pos: 1, team: 'Raynes Park United Churches FC', P: 6, W: 5, D: 1, L: 0, GD: 11, PTS: 16 },
-    { pos: 2, team: 'Wimbledon Sporting Club Adult', P: 7, W: 4, D: 2, L: 1, GD: 11, PTS: 14 },
-    { pos: 3, team: 'London Falcons FC Saturday Team', P: 6, W: 3, D: 0, L: 3, GD: 6, PTS: 9 },
-    { pos: 4, team: 'CP Dons F.C', P: 5, W: 2, D: 1, L: 2, GD: 1, PTS: 7 },
-    { pos: 5, team: 'Embankment FC', P: 7, W: 2, D: 1, L: 4, GD: -9, PTS: 7 },
-    { pos: 6, team: 'Sporting London FC Saturday', P: 6, W: 1, D: 2, L: 3, GD: -6, PTS: 5 },
-    { pos: 7, team: 'Goldfingers Seconds', P: 5, W: 1, D: 1, L: 3, GD: -5, PTS: 4 },
-    { pos: 8, team: 'Ocean Rangers First', P: 4, W: 1, D: 0, L: 3, GD: -9, PTS: 3 },
+    { pos: 1, team: 'Raynes Park United Churches FC', P: 7, W: 6, D: 1, L: 0, GD: 13, PTS: 19 },
+    { pos: 2, team: 'Wimbledon Sporting Club Adult', P: 8, W: 5, D: 2, L: 1, GD: 14, PTS: 17 },
+    { pos: 3, team: 'CP Dons F.C', P: 6, W: 3, D: 1, L: 2, GD: 1, PTS: 10 },
+
+    { pos: 4, team: 'London Falcons FC Saturday Team', P: 8, W: 3, D: 0, L: 5, GD: 2, PTS: 9 },
+    { pos: 5, team: 'Goldfingers Seconds', P: 6, W: 2, D: 1, L: 3, GD: -4, PTS: 7 }
+    ,{ pos: 6, team: 'Embankment FC', P: 9, W: 2, D: 1, L: 6, GD: -13, PTS: 7 },
+    { pos: 7, team: 'Ocean Rangers First', P: 5, W: 2, D: 0, L: 3, GD: -2, PTS: 6 },
+    { pos: 8, team: 'Sporting London FC Saturday', P: 7, W: 1, D: 2, L: 4, GD: -13, PTS: 5 },
+    
+    
   ];
 
   return (

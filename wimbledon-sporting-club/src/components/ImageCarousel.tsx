@@ -22,7 +22,7 @@ const ImageCarousel: React.FC = () => {
         <img
         onClick={nextImage}
           src={images[currentImage]}
-          alt={` Player${currentImage + 1}`}
+          alt={` Players of Wimbledon Sporting Club ${currentImage + 1}`}
           width ='100%'
            
           style={{objectFit: 'contain' }}
