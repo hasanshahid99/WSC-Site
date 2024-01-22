@@ -327,11 +327,32 @@ th {
   margin: 0px 0; /* Center the image horizontally */
 }
 
+.bnr-scl {
+  padding: 20px;
+}
 
+.banner3 {
+  display: block;
+}
+.trip-img-container {
+  display: flex;
+  justify-content: center;
+}
+.img-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+}
+.banner3 img {
+  align-items: center;
+  width: 75%;
+  height: 60vh;
+}
 .social-pics {
 
-
-width: 20%;
+height: 50vh;
+width: 40%;
 margin: 5px 20px;
 
 }
