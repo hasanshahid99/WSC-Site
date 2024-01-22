@@ -6,13 +6,13 @@ const Table: React.FC = () => {
   const tableData = [
     { pos: 1, team: 'Raynes Park United Churches FC', P: 9, W: 7, D: 2, L: 0, GD: 18, PTS: 23 },
     { pos: 2, team: 'Wimbledon Sporting Club Adult', P: 10, W: 6, D: 3, L: 1, GD: 15, PTS: 21 },
-    { pos: 4, team: 'CP Dons F.C', P: 8, W: 3, D: 1, L: 4, GD: -2, PTS: 10 },
-
     { pos: 3, team: 'London Falcons FC Saturday Team', P: 10, W: 5, D: 0, L: 5, GD: 6, PTS: 15 },
-    { pos: 5, team: 'Goldfingers Seconds', P: 8, W: 3, D: 1, L: 4, GD: -3, PTS: 10 }
+    { pos: 4, team: 'CP Dons F.C', P: 8, W: 3, D: 1, L: 4, GD: -2, PTS: 10 },
+    { pos: 5, team: 'Goldfingers Seconds', P: 8, W: 3, D: 1, L: 4, GD: -3, PTS: 10 },
+    { pos: 6, team: 'Sporting London FC Saturday', P: 9, W: 2, D: 2, L: 5, GD: -14, PTS: 8 }
     ,{ pos: 7, team: 'Embankment FC', P: 10, W: 2, D: 1, L: 7, GD: -14, PTS: 7 },
     { pos: 8, team: 'Ocean Rangers First', P: 6, W: 2, D: 0, L: 4, GD: -7, PTS: 6 },
-    { pos: 6, team: 'Sporting London FC Saturday', P: 9, W: 2, D: 2, L: 5, GD: -14, PTS: 8 },
+   ,
     
     
   ];
