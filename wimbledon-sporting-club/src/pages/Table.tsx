@@ -12,7 +12,7 @@ const Table: React.FC = () => {
     { pos: 6, team: 'Sporting London FC Saturday', P: 9, W: 2, D: 2, L: 5, GD: -14, PTS: 8 }
     ,{ pos: 7, team: 'Embankment FC', P: 10, W: 2, D: 1, L: 7, GD: -14, PTS: 7 },
     { pos: 8, team: 'Ocean Rangers First', P: 6, W: 2, D: 0, L: 4, GD: -7, PTS: 6 },
-   ,
+   
     
     
   ];
