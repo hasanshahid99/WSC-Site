@@ -63,11 +63,11 @@ const Navbar: React.FC = () => {
 
         <li>
           <Link
-            to="/shop"
-            className={activeLink === 'Shop' ? 'active' : ''}
-            onClick={(e) => handleSetActiveLink('Shop', e)}
+            to="/social"
+            className={activeLink === 'Social' ? 'active' : ''}
+            onClick={(e) => handleSetActiveLink('Social', e)}
           >
-            Shop
+            Social
           </Link>
         </li>
       </ul>

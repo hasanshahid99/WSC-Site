@@ -5,7 +5,7 @@ import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Table from './pages/Table';
-import Shop from './pages/Shop';
+import Social from './pages/Social';
 function App() {
   return (
     <>
@@ -16,7 +16,7 @@ function App() {
     
         <Route path="/league-table" element={<Table/>}/>
          
-        <Route path="/shop" element={<Shop/>}/>
+        <Route path="/social" element={<Social/>}/>
 
     </Routes>
     </>
