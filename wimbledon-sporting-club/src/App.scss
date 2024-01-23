@@ -221,6 +221,7 @@ a {
 .banner3 p {
   font-size: 1.2rem;
   margin: 1.8rem;
+  padding-top: 25px;
 }
 #map {
   border: solid 1px transparent;
@@ -335,7 +336,10 @@ th {
   display: block;
   margin: 0px 0; /* Center the image horizontally */
 }
-
+.christmas-img-container {
+  display: flex;
+  width: 110%;
+}
 .bnr-scl {
   padding: 20px;
 }
@@ -371,6 +375,7 @@ margin: 5px 20px;
 }
 
 .international {
+  font-size: 1.5rem;
   text-align: center;
   color: $secondary-color
 }
@@ -414,7 +419,11 @@ margin: 5px 20px;
 
 
   /* Media Query for Small Screens */
-
+  @media only screen and (max-width: 920px) {
+    .bnr-scl {
+      display: block;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .navbar {
       justify-content: flex-start;
@@ -491,7 +500,7 @@ margin: 5px 20px;
   }
   .social-pics {
     width: 50%;
-    margin: 5px 0;
+    margin: 5px 0px;
   }
   .christmas-img-container {
     display: flex;
@@ -503,7 +512,7 @@ margin: 5px 20px;
   
   }
   .banner3 img {
-    width: 100%;
+    width: 90%;
   }
   .specs {
     font-size: 0.8em;
