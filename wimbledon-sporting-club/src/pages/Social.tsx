@@ -27,7 +27,7 @@ const Social:React.FC = () => {
       </div>
    
 </section>
-<h3>Galway Trip</h3>
+<h3 className='info-title'>Galway Trip</h3>
 <section className='banner banner3'>
   <div className='specs-container'>
 <p className='para specs'> Summer 2023 marked the establishment of our football club - and we wanted to celebrate the milestone with a trip away.  <br></br>
