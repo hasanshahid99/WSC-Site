@@ -29,8 +29,10 @@ const Social:React.FC = () => {
 </section>
 <h3>Galway Trip</h3>
 <section className='banner banner3'>
-<p className='para specs'> Summer 2023 marked the establishment of our football club - and we wanted to celebrate the milestone with a trip away.  <br></br><br></br>
+  <div className='specs-container'>
+<p className='para specs'> Summer 2023 marked the establishment of our football club - and we wanted to celebrate the milestone with a trip away.  <br></br>
 With a few lads on the team from Galway in Ireland - it was a natural flow to get the cheapest Ryanair flights out there. <br></br><br></br> We hiked Diamond Hill, swam in Silverstrand and played the local Salthill Devon FC in a friendly winning 4-0. </p>
+</div>
 <div className='trip-img-container'>
 <div className='img-wrapper'>
   <img className="social-pics"src="assets/Gallery/SocialPics/DiamondHill.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>

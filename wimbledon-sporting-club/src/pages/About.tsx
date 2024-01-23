@@ -22,7 +22,7 @@ const About = () => {
         <img className="gallery" src="assets/Volunteering/IMG_8927.jpg" alt="volunteering" />
       </section>
       <h3>Our Policy</h3>
-      <section className='banner'>
+      <section className='banner bg-about'>
         <p className='para'>We exercise a balance between being a competitive side, and being a group of friends. We're inclusive of players from all backgrounds, ethnicities and orientations. </p>
         <p className='para'>We expect those who are being supported on the pitch, to support the communities around us and volunteer once a year</p>
       </section>

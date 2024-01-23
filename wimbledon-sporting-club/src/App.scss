@@ -262,6 +262,9 @@ a {
 .abt-pic {
   width: 30%;
 }
+.bg-about{
+  background-color: $secondary-color;
+}
 
 // table
 .table-container {
@@ -364,6 +367,11 @@ th {
   width: 75%;
   height: 60vh;
 }
+.specs-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
 .social-pics {
 
 height: 50vh;
@@ -379,6 +387,7 @@ margin: 5px 20px;
 .international {
   font-size: 1.5rem;
   text-align: center;
+  justify-self: center;
   color: $secondary-color
 }
 
