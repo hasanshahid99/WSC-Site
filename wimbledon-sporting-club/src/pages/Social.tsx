@@ -20,24 +20,32 @@ const Social:React.FC = () => {
       <br></br> <br></br>Laughs were had, drinks were drunk and prizes were won. <br></br><br></br> This year we had a signed Fulham FC jersey from all the current squad players of 2023/24 season - along with other prizes such as vouchers for local restaurants and of course some priceless WSC memorobilia. </p>
      
     
-     
-      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyGirls.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
-      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyRaffle.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
+      <div className='christmas-img-container'>
+
+      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyGirls.jpeg" alt="Wimbledon Sporting Club girls christmas party Irish Centre"></img>
+      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyRaffle.jpeg" alt="Wimbledon Sporting Club raffle christmas party Irish Centre"></img>
+      </div>
    
 </section>
 <h3>Galway Trip</h3>
-<section className='banner banner2 banner3'>
-<p className='para'> Summer 2023 marked the establishment of our football club - and we wanted to celebrate the milestone with a trip away.  <br></br><br></br>
-With a few lads on the team from Galway in Ireland - it was a natural flow to get the cheapest Ryanair flights out there. </p>
+<section className='banner banner3'>
+<p className='para specs'> Summer 2023 marked the establishment of our football club - and we wanted to celebrate the milestone with a trip away.  <br></br><br></br>
+With a few lads on the team from Galway in Ireland - it was a natural flow to get the cheapest Ryanair flights out there. <br></br><br></br> We visited the hotspots in Galway like Diamond Hill, Silverstrand Beach, Fadsaoil Saunas and Handsome Burger. We also played a friendly match against Salthill Devon FC in which we won 4-0.</p>
 <div className='trip-img-container'>
 <div className='img-wrapper'>
   <img className="social-pics"src="assets/Gallery/SocialPics/DiamondHill.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
-      <img className="social-pics"src="assets/Gallery/SocialPics/QuayStreet.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
-      <img className="social-pics"src="assets/Gallery/SocialPics/GalwayBeach.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
-      <img className="social-pics"src="assets/Gallery/SocialPics/Massimos.jpeg" alt="Wimbledon Sporting Club team team squad Irish Centre"></img>
+      <img className="social-pics"src="assets/Gallery/SocialPics/QuayStreet.jpeg" alt="Wimbledon Sporting Club irish trip away Galway"></img>
+      <img className="social-pics"src="assets/Gallery/SocialPics/GalwayBeach.jpeg" alt="Wimbledon Sporting Club irish trip away Galway beach"></img>
+      <img className="social-pics"src="assets/Gallery/SocialPics/Massimos.jpeg" alt="Wimbledon Sporting Club irish trip away Galway massimos night out social"></img>
       </div>
+
+      
       </div>
 </section>
+<div className="callout">
+<p className='international'> Fancy giving Wimbledon Sporting Club a run for their international form?  <br></br><br></br>
+We can organise a preseason friendly game - always happy to host in London or we can fly out to you. <br></br><br></br>Find the contact details below and we can organise something ⚽ </p>
+</div>
 <Footer/>
     </div>
   )
