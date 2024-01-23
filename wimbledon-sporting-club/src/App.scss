@@ -222,7 +222,7 @@ a {
   font-size: 1.2rem;
   margin: 1.8rem;
   padding-top: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 #map {
   border: solid 1px transparent;
@@ -351,6 +351,7 @@ th {
 .trip-img-container {
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
 }
 .img-wrapper {
   display: grid;
