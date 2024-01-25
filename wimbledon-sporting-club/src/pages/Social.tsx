@@ -22,7 +22,7 @@ const Social:React.FC = () => {
     
       <div className='christmas-img-container'>
 
-      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyGirls.jpeg" alt="Wimbledon Sporting Club girls christmas party Irish Centre"></img>
+      <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyGirls.jpeg" id="girls"alt="Wimbledon Sporting Club girls christmas party Irish Centre"></img>
       <img className="social-pics"src="assets/Gallery/SocialPics/ChristmasPartyRaffle.jpeg" alt="Wimbledon Sporting Club raffle christmas party Irish Centre"></img>
       </div>
    
